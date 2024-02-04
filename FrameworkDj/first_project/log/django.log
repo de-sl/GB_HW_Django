@@ -1,0 +1,209 @@
+INFO 2024-02-04 13:59:13,623 autoreload 6991 140548210561024 Watching for file changes with StatReloader
+INFO 2024-02-04 13:59:32,726 basehttp 6991 140548160849472 "GET / HTTP/1.1" 200 34
+WARNING 2024-02-04 13:59:39,929 log 6991 140548160849472 Not Found: /coin
+WARNING 2024-02-04 13:59:39,929 basehttp 6991 140548160849472 "GET /coin HTTP/1.1" 404 2424
+INFO 2024-02-04 14:03:00,276 autoreload 6991 140548210561024 /home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/first_project/urls.py changed, reloading.
+INFO 2024-02-04 14:03:01,023 autoreload 7039 140285802102784 Watching for file changes with StatReloader
+INFO 2024-02-04 14:03:01,630 basehttp 7039 140285752460864 "GET /coin HTTP/1.1" 301 0
+INFO 2024-02-04 14:03:01,639 basehttp 7039 140285752460864 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-02-04 14:03:03,695 basehttp 7039 140285752460864 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-02-04 14:04:38,367 autoreload 7039 140285802102784 /home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/rand_app/views.py changed, reloading.
+INFO 2024-02-04 14:04:39,036 autoreload 7085 140186920243200 Watching for file changes with StatReloader
+INFO 2024-02-04 14:04:51,550 autoreload 7085 140186920243200 /home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/rand_app/views.py changed, reloading.
+INFO 2024-02-04 14:04:52,115 autoreload 7103 140174092550144 Watching for file changes with StatReloader
+INFO 2024-02-04 14:04:53,427 autoreload 7103 140174092550144 /home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/rand_app/views.py changed, reloading.
+INFO 2024-02-04 14:04:53,933 autoreload 7107 139717845684224 Watching for file changes with StatReloader
+INFO 2024-02-04 14:05:08,501 autoreload 7107 139717845684224 /home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/rand_app/views.py changed, reloading.
+INFO 2024-02-04 14:05:09,111 autoreload 7123 140375467188224 Watching for file changes with StatReloader
+ERROR 2024-02-04 14:05:10,622 log 7123 140375417521728 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/rand_app/views.py", line 7, in coin
+    return random.choice('Орел', 'Решка')
+TypeError: Random.choice() takes 2 positional arguments but 3 were given
+ERROR 2024-02-04 14:05:10,624 basehttp 7123 140375417521728 "GET /coin/ HTTP/1.1" 500 68828
+INFO 2024-02-04 14:06:40,569 autoreload 7123 140375467188224 /home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/rand_app/views.py changed, reloading.
+INFO 2024-02-04 14:06:41,078 autoreload 7445 140555457638400 Watching for file changes with StatReloader
+ERROR 2024-02-04 14:06:49,853 log 7445 140555407865408 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/.venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/.venv/lib/python3.10/site-packages/django/middleware/clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+AttributeError: 'str' object has no attribute 'get'
+ERROR 2024-02-04 14:06:49,855 basehttp 7445 140555407865408 "GET /coin/ HTTP/1.1" 500 68642
+INFO 2024-02-04 14:08:17,558 autoreload 7445 140555457638400 /home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/rand_app/views.py changed, reloading.
+INFO 2024-02-04 14:08:17,908 autoreload 7481 140104249511936 Watching for file changes with StatReloader
+ERROR 2024-02-04 14:08:23,891 log 7481 140104199861824 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/.venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/.venv/lib/python3.10/site-packages/django/middleware/clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+AttributeError: 'str' object has no attribute 'get'
+ERROR 2024-02-04 14:08:23,892 basehttp 7481 140104199861824 "GET /coin/ HTTP/1.1" 500 68642
+INFO 2024-02-04 14:11:13,863 autoreload 7481 140104249511936 /home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/rand_app/views.py changed, reloading.
+INFO 2024-02-04 14:11:14,350 autoreload 7518 140357314289664 Watching for file changes with StatReloader
+ERROR 2024-02-04 14:11:16,744 log 7518 140357264574016 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/.venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/.venv/lib/python3.10/site-packages/django/middleware/clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+AttributeError: 'str' object has no attribute 'get'
+ERROR 2024-02-04 14:11:16,745 basehttp 7518 140357264574016 "GET /coin/ HTTP/1.1" 500 68642
+INFO 2024-02-04 14:12:58,926 autoreload 7518 140357314289664 /home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/rand_app/views.py changed, reloading.
+INFO 2024-02-04 14:12:59,411 autoreload 7565 140197861769216 Watching for file changes with StatReloader
+INFO 2024-02-04 14:13:01,098 basehttp 7565 140197811992128 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-02-04 14:13:01,976 basehttp 7565 140197811992128 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-02-04 14:13:02,591 basehttp 7565 140197811992128 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-02-04 14:13:03,122 basehttp 7565 140197811992128 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-02-04 14:13:03,496 basehttp 7565 140197811992128 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-02-04 14:13:03,841 basehttp 7565 140197811992128 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-02-04 14:13:04,127 basehttp 7565 140197811992128 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-02-04 14:13:26,149 basehttp 7565 140197731759680 "GET /coin HTTP/1.1" 301 0
+INFO 2024-02-04 14:13:26,185 basehttp 7565 140197731759680 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-02-04 14:13:44,448 basehttp 7565 140197731759680 "GET /rand_num HTTP/1.1" 301 0
+INFO 2024-02-04 14:13:44,474 basehttp 7565 140197731759680 "GET /rand_num/ HTTP/1.1" 200 15
+INFO 2024-02-04 14:14:09,537 basehttp 7565 140197731759680 "GET /rand_num/ HTTP/1.1" 200 15
+INFO 2024-02-04 14:14:18,856 basehttp 7565 140197731759680 "GET /dice/ HTTP/1.1" 200 14
+INFO 2024-02-04 14:14:35,149 basehttp 7565 140197731759680 "GET /dice/ HTTP/1.1" 200 14
+INFO 2024-02-04 14:14:38,106 basehttp 7565 140197731759680 "GET /dice/ HTTP/1.1" 200 14
+INFO 2024-02-04 14:14:43,328 basehttp 7565 140197731759680 "GET /dice/ HTTP/1.1" 200 14
+INFO 2024-02-04 14:14:45,479 basehttp 7565 140197731759680 "GET /dice/ HTTP/1.1" 200 14
+INFO 2024-02-04 14:14:47,937 basehttp 7565 140197731759680 "GET /dice/ HTTP/1.1" 200 14
+INFO 2024-02-04 14:14:50,395 basehttp 7565 140197731759680 "GET /dice/ HTTP/1.1" 200 14
+INFO 2024-02-04 14:27:01,564 autoreload 7565 140197861769216 /home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/rand_app/views.py changed, reloading.
+INFO 2024-02-04 14:27:02,169 autoreload 7746 140300638199808 Watching for file changes with StatReloader
+INFO 2024-02-04 14:27:14,765 autoreload 7746 140300638199808 /home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/rand_app/views.py changed, reloading.
+INFO 2024-02-04 14:27:15,100 autoreload 7761 140192726290432 Watching for file changes with StatReloader
+INFO 2024-02-04 14:27:56,075 autoreload 7761 140192726290432 /home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/rand_app/views.py changed, reloading.
+INFO 2024-02-04 14:27:56,448 autoreload 7782 140553706614784 Watching for file changes with StatReloader
+INFO 2024-02-04 14:27:58,696 autoreload 7782 140553706614784 /home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/rand_app/views.py changed, reloading.
+INFO 2024-02-04 14:27:59,060 autoreload 7786 140463882780672 Watching for file changes with StatReloader
+INFO 2024-02-04 14:29:30,050 autoreload 7786 140463882780672 /home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/rand_app/views.py changed, reloading.
+INFO 2024-02-04 14:29:30,550 autoreload 7835 140152606875648 Watching for file changes with StatReloader
+INFO 2024-02-04 14:29:45,286 basehttp 7835 140152557164096 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-02-04 14:29:45,894 basehttp 7835 140152557164096 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-02-04 14:29:46,690 basehttp 7835 140152557164096 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-02-04 14:29:47,403 basehttp 7835 140152557164096 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-02-04 14:29:47,928 basehttp 7835 140152557164096 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-02-04 14:30:31,996 autoreload 7860 140277288574976 Watching for file changes with StatReloader
+INFO 2024-02-04 14:30:43,923 basehttp 7860 140277238826560 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-02-04 14:30:44,655 basehttp 7860 140277238826560 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-02-04 14:32:38,904 basehttp 7860 140277238826560 "GET /dice HTTP/1.1" 301 0
+INFO 2024-02-04 14:32:38,915 basehttp 7860 140277238826560 "GET /dice/ HTTP/1.1" 200 14
+INFO 2024-02-04 14:35:30,975 autoreload 7860 140277288574976 /home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/first_project/settings.py changed, reloading.
+INFO 2024-02-04 14:35:31,319 autoreload 8053 140408317599744 Watching for file changes with StatReloader
+INFO 2024-02-04 14:36:05,185 autoreload 8053 140408317599744 /home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/first_project/settings.py changed, reloading.
+INFO 2024-02-04 14:36:42,006 autoreload 8101 140588717182976 Watching for file changes with StatReloader
+INFO 2024-02-04 14:40:39,453 autoreload 8101 140588717182976 /home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/first_project/settings.py changed, reloading.
+INFO 2024-02-04 14:40:39,832 autoreload 8158 140262904471552 Watching for file changes with StatReloader
+INFO 2024-02-04 14:40:49,906 basehttp 8158 140262854698560 "GET /dice/ HTTP/1.1" 200 14
+INFO 2024-02-04 14:40:50,739 basehttp 8158 140262854698560 "GET /dice/ HTTP/1.1" 200 14
+INFO 2024-02-04 14:40:51,346 basehttp 8158 140262854698560 "GET /dice/ HTTP/1.1" 200 14
+INFO 2024-02-04 14:40:52,305 basehttp 8158 140262854698560 "GET /dice/ HTTP/1.1" 200 14
+INFO 2024-02-04 14:42:46,710 autoreload 8158 140262904471552 /home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/first_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /dice/ HTTP/1.1" 200 14
+"GET /dice/ HTTP/1.1" 200 14
+"GET /dice/ HTTP/1.1" 200 14
+/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/first_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Выпало 3
+"GET /dice/ HTTP/1.1" 200 14
+Выпало 6
+"GET /dice/ HTTP/1.1" 200 14
+Выпало 1
+"GET /dice/ HTTP/1.1" 200 14
+/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/first_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Выпало 3
+"GET /dice/ HTTP/1.1" 200 14
+Выпало 4
+"GET /dice/ HTTP/1.1" 200 14
+Орел
+"GET /coin/ HTTP/1.1" 200 8
+/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/rand_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/rand_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/rand_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Орел
+The function coin was returned <HttpResponse status_code=200, "text/html; charset=utf-8">
+"GET /coin/ HTTP/1.1" 200 8
+Решка
+The function coin was returned <HttpResponse status_code=200, "text/html; charset=utf-8">
+"GET /coin/ HTTP/1.1" 200 10
+Решка
+The function coin was returned <HttpResponse status_code=200, "text/html; charset=utf-8">
+"GET /coin/ HTTP/1.1" 200 10
+Орел
+The function coin was returned <HttpResponse status_code=200, "text/html; charset=utf-8">
+"GET /coin/ HTTP/1.1" 200 8
+Not Found: /rend_num
+"GET /rend_num HTTP/1.1" 404 2939
+"GET /rand_num HTTP/1.1" 301 0
+Выпало 53
+The function rand_num was returned <HttpResponse status_code=200, "text/html; charset=utf-8">
+"GET /rand_num/ HTTP/1.1" 200 15
+Выпало 17
+The function rand_num was returned <HttpResponse status_code=200, "text/html; charset=utf-8">
+"GET /rand_num/ HTTP/1.1" 200 15
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/html_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/html_app/views.py", line 12, in index
+    text = lorem.text(2)
+  File "/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/.venv/lib/python3.10/site-packages/lorem/__init__.py", line 46, in text
+    return _Lorem().text(*args, **kwargs)
+TypeError: TextLorem.text() takes 1 positional argument but 2 were given
+"GET / HTTP/1.1" 500 70969
+/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/html_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1348
+/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/html_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/html_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/html_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/html_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/html_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/de-sl/Рабочий стол/gb/django/HW_django/HW_Dj_1st/FrameworkDj/first_project/html_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1660
+Watching for file changes with StatReloader
+Переход на Главную страницу
+"GET / HTTP/1.1" 200 1201
+Переход на Главную страницу
+"GET / HTTP/1.1" 200 949
+Переход на страницу "Обо мне"
+"GET /about/ HTTP/1.1" 200 1585
+Выпало 2
+The function dice was returned <HttpResponse status_code=200, "text/html; charset=utf-8">
+"GET /dice/ HTTP/1.1" 200 14
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2950
+Переход на Главную страницу
+"GET / HTTP/1.1" 200 1810
